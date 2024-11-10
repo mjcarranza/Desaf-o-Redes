@@ -1,0 +1,164 @@
+
+<interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces"  xmlns:if="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+  <interface>
+    <name>GigabitEthernet1</name>
+    <description>IPv6 ADDRESS</description>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>10.10.20.48</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+      <address>
+        <ip>192.168.1.10</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>2001:db8:acad:1::1</ip>
+        <prefix-length>64</prefix-length>
+      </address>
+    </ipv6>
+  </interface>
+  <interface>
+    <name>GigabitEthernet2</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>10.10.30.52</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>GigabitEthernet3</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>10.10.25.33</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback0</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback1</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>192.168.46.1</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback7</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback10</name>
+    <description>NC loopback interface</description>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>10.111.10.2</ip>
+        <netmask>255.255.255.255</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback35</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>192.168.35.1</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback56</name>
+    <description>this is gaurav</description>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback69</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>10.69.69.1</ip>
+        <netmask>255.255.255.0</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback999</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Loopback1979</name>
+    <description>Chas Loop</description>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:softwareLoopback</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+      <address>
+        <ip>79.79.79.79</ip>
+        <netmask>255.255.255.255</netmask>
+      </address>
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+  <interface>
+    <name>Vlan1</name>
+    <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:l3ipvlan</type>
+    <enabled>true</enabled>
+    <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv4>
+    <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+    </ipv6>
+  </interface>
+</interfaces>
